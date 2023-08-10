@@ -4,6 +4,9 @@ import './index.css';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
+import ReactGA from 'react-ga4';
+
+ReactGA.initialize("G-2JZP7CJ3VJ");
 
 ReactDOM.render((
 <BrowserRouter>

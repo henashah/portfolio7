@@ -1,4 +1,4 @@
-// TestimonyPage.js
+// TestimonyPage.js replaces App.js
 
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
@@ -6,6 +6,7 @@ import './TestimonyPage.css'; // Import your custom CSS file
 // import { NavLink, Switch, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Button from '@mui/material/Button';
+import ReactGA from 'react-ga4';
 
 const TestimonyPage = () => {
   const [name, setName] = useState('');
