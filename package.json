@@ -1,0 +1,23 @@
+{
+  "name": "pm-learning",
+  "version": "1.0.0",
+  "description": "upload task csv to db for visualizations",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev-start": "nodemon index.js"
+  },
+  "author": "hena",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "fast-csv": "^4.3.6",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.0.1"
+  },
+  "homepage": "."
+}

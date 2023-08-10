@@ -1,0 +1,64 @@
+/* Testimony Container */
+.testimony-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Testimony Form */
+.testimony-form {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Input and Textarea Fields */
+.input-field,
+.textarea-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+/* Submit Button */
+.submit-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Testimonies List */
+.testimonies-list {
+  margin-top: 20px;
+}
+
+/* Individual Testimony */
+.testimony {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.testimony-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.testimony-content {
+  margin: 0;
+}
